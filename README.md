@@ -12,7 +12,7 @@ It's a simplified fork of: https://github.com/thornomad/django-hitcount with 2 m
 
 INSTALL:
 --------
-`pip install `
+`pip install -e git+https://github.com/goinnn/django-visits#egg=visits`
 
 
 Set-up:
@@ -26,7 +26,12 @@ Set-up:
         ...
     )
 
-
 TODO
+----
 * doc
 * tests
+
+
+2.Optionally, add a column to cache the result on the concerned model:
+3.migrate
+4.add tag in template
