@@ -1,0 +1,13 @@
+<script type="text/javascript">
+    $(document).ready(function() {
+        $.post(
+            '{% url 'count-visit-ajax' %}',
+            {
+                'visit_count_id': {{ visit_count.id }},
+                'csrfmiddlewaretoken': '{{ csrf_token }}'
+            },
+            function(data, status) {},
+            'json'
+        );
+    });
+</script>
