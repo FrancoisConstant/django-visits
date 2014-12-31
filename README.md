@@ -12,7 +12,7 @@ It's a simplified fork of: https://github.com/thornomad/django-hitcount with 2 m
 
 INSTALL:
 --------
-`pip install -e git+https://github.com/goinnn/django-visits#egg=visits`
+`pip install -e git+https://github.com/FrancoisConstant/django-visits#egg=visits`
 
 
 Set-up:
