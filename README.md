@@ -32,6 +32,6 @@ TODO
 * tests
 
 
-2.Optionally, add a column to cache the result on the concerned model:
-3.migrate
-4.add tag in template
+* 2.Optionally, add a column to cache the result on the concerned model:
+* 3.migrate
+* 4.add tag in template
