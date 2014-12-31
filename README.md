@@ -1,9 +1,9 @@
 django-visit
 ============
 
-Really simple app to count the visits on any Django Model.
-This is not meant to replace any proper tracking analytics tool.
-This app is useful to setup really simple "most popular" widgets.
+- Really simple app to count the visits on any Django Model.
+- This is not meant to replace any proper tracking analytics tool.
+- This app is useful to setup really simple "most popular" widgets.
 
 
 It's a simplified fork of: https://github.com/thornomad/django-hitcount with 2 main differences:
